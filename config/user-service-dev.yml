@@ -19,3 +19,7 @@ management:
     web:
       exposure:
         include: refresh 
+        
+cloud:
+    config:
+      override-none: true
